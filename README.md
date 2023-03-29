@@ -1,4 +1,4 @@
-# Dibs Integration Guide for Uniswap V2 Style Decentralized Exchanges
+# Dibs Contract Integration Guide and requirements for Uniswap V2 Style Decentralized Exchanges
 
 To integrate Dibs into a Uniswap V2 style decentralized exchange, you need to fulfill certain requirements for each of the following contracts, which are typically included in a Uniswap V2 DEX:
 
