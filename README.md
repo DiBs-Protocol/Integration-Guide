@@ -15,7 +15,7 @@ The router must have the following views:
 - `getAmountsOut(uint amountIn, route[] memory routes) public view returns (uint[] memory amounts)`, which, given a swap route, returns all amountOuts. Note that the "route" struct is defined as follows: `{address from; address to; bool stable;}`
 *note: set stable to false if you don't supoort it.*
 - `weth()/wETH()`, which points to the wrapped native token of the chain. Please note that a Muon/ChainLink/pyth price feed for the native token
-so for example for `wBNB on BNB` or `wFTM on FTM` must be available on the chain.
+so for example for `for wBNB a pricefeed of BNB/USD needs to be available on Binance chain` or `for wFTM a pricefeed of FTM/USD needs to be available on Fantom chain` must be available on the chain.
 
 Additionally, the router contract must emit Swap events with the following data:
 
